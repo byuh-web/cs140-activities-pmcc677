@@ -1,0 +1,20 @@
+header {
+    color:#B3DBA3;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+#navigation {
+    color:aqua;
+    font-family: 'Lucida Sans';
+    font-size: x-large;
+}
+
+main h3 {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+p {
+    font-size: 18px;
+}
