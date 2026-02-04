@@ -1,0 +1,7 @@
+ul {
+    list-style-image: url('favicon.ico');
+}
+
+ol {
+    list-style-type: decimal;
+}
