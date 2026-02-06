@@ -5,3 +5,9 @@ ul {
 ol {
     list-style-type: decimal;
 }
+
+body {
+    background-image: url("images/landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
