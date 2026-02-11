@@ -1,9 +1,37 @@
 body {
-    font-family: Georgia;
+    background-color: rgb(125, 207, 125);
 }
 
 header {
-    color:aqua;
+    color:rgb(173, 255, 255);
     font-family: 'Lucida Sans';
     font-size: x-large;
+}
+
+p {
+    color: rgb(35, 35, 35);
+    font-family: Georgia;
+    font-size: medium;
+}
+
+main {
+    color: bisque;
+    font-size: x-large;
+}
+
+span {
+    font-family: cursive;
+    font-size: large;
+}
+
+.eggplant { 
+    background-color: blueviolet;
+}
+
+#question1 {
+    color: bisque;
+}
+
+#question2 {
+    color: rgb(35, 35, 35);
 }
