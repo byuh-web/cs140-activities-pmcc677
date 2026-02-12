@@ -51,8 +51,8 @@ body {
     width: 60%;
 }
 
-.info li {
-    margin-bottom: 0.5rem;
+.info li p{
+    margin-bottom: 1.5rem;
 }
 
 main {
