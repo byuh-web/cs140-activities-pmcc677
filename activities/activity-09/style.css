@@ -10,7 +10,7 @@ body {
 }
 
 #page-header {
-    background-image: url(/activity-09/images/pattern.jpg);
+    background-image: url(images/pattern.jpg);
     background-size: cover;
     color: rgb(155, 255, 155);
     padding: 1rem;
