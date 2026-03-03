@@ -1,0 +1,76 @@
+header {
+    background-image: url(red.jpg);
+    padding: 1%;
+}
+
+h1 {
+    color: rgb(60, 120, 30);
+    font-size: 7rem;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+.navbar {
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: larger;
+    font-style: italic;
+    padding: 1rem;
+}
+
+body {
+    background-color: rgb(181, 226, 211);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.sectionleft {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.sectionright {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+
+.text {
+    align-items: start;
+    display: flex;
+    font-family: Verdana;
+    font-size: 30px;
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.footbackground {
+    background-color: beige;
+    display: flex;
+}
+
+.picture {
+    border: 2px solid;
+    display: flex;
+}
+
+.contacts {
+    align-items: center;
+    border: 2px solid;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5px;
+    padding-top: 10px;
+}
