@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contact Form</h1>
+
+    <form>
+        <label class="label" for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label class="label" for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label class="label" for="cell">Cell Phone Number:</label><br>
+        <input type="cell" id="cell" name="cell"><br><br>
+
+        <label class="label" for="age">Age:</label><br>
+        <input type="age" id="age" name="age"><br>
+
+        <p class="label">Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <p class="label">Skills:</p>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+
+        <label class="label" for="year">Year:</label><br><br>
+        <select name="year" id="">year
+            <option value="null"></option>
+            <option value="freshman">Freshman</option>
+            <option value="sophomore">Sophomore</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+        </select><br><br>
+
+        <label class="label" for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
