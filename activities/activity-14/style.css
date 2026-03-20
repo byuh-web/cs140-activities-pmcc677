@@ -1,12 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  background: rgb(94, 192, 94);
+  font-family: Verdana;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: #333;
+  background: #1d5b29;
   color: white;
+  font-family:'Georgia';
   padding: 1rem;
   text-align: center;
 }
@@ -27,21 +29,30 @@ nav a {
   font-weight: bold;
 }
 
+.family {
+  background: #e5b3b3;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .container {
   display: block;
   padding: 1rem;
 }
 
 .column {
-  background: #f2f2f2;
+  background: #e5b3b3;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 5px;
 }
 
 footer {
-  background: #333;
+  background: #1d5b29;
   color: white;
+  font-family: 'Courier New';
   text-align: center;
   padding: 1rem;
   margin-top: 1rem;
