@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Your Preferences</h1>
+    <h3 id="home"><a href="../final.html">Home</a></h3>
+</header>
+
+<main>
+    <form>
+        <fieldset>
+            <legend>Who are you?</legend>
+
+            <div class="form-row">
+                <label for="user">Name:</label>
+                <input type="text" id="user" name="user">
+            </div>
+
+            <div class="form-row">
+                <label for="weight">Year:</label>
+                <input type="text" id="age" name="age">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email (school):</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>About you</legend>
+    
+            <div class="form-row">
+                <label for="artist">Favorite Artist(s):</label>
+                <input class="boxes" type="text" id="artist" name="artist">
+                <input class="boxes" type="text" id="artist" name="artist">
+                <input type="text" id="artist" name="artist">
+            </div>
+
+            <div class="form-row">
+                <label for="music">How often do you listen to music?</label>
+                <select type="text" id="music" name="music">
+                    <option value="-1"></option>
+                    <option value="0">Neva eva</option>
+                    <option value="1">Once in a while</option>
+                    <option value="2">Few times a week</option>
+                    <option value="3">Everyday</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="dimension"></label>
+                <input type="text" id="dimension" name="dimension">
+            </div>
+
+            <div class="form-row">
+                <label for="bio">What do you like about your artists/genres?</label>
+                <textarea id="bio" name="bio"></textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Consent</legend>
+
+            <div class="form-row checkbox-row">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to share my opinions</label>
+            </div>
+
+            <div class="form-row">
+                <span>Meow meow</span>
+
+                <label class="radio-label">
+                    <input type="radio" name="plan" value="none">
+                    None
+                </label>
+
+                <label class="radio-label">
+                    <input type="radio" name="plan" value="basic">
+                    Basic
+                </label>
+
+                <label class="radio-label">
+                    <input type="radio" name="plan" value="premium">
+                    Premium
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label for="color">Packing:</label>
+                <select id="color" name="color">
+                    <option value=""></option>
+                    <option>Basic</option>
+                    <option>Strong</option>
+                    <option>Strongest</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <button type="submit" class="submit-btn">Submit</button>
+
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 Porter McCoy</p>
+</footer>
+
+<script>
+    document.getElementById("myForm").addEventListener("Submit", function(event) {
+        event.preventDefault();
+        
+        const user = document.getElementById("user").value;
+        const pass = document.getElementById("password").value;
+        const email = document.getElementById("email").value;
+        const info = {user: user, password: password, email: email}
+        console.log(data);
+    });
+</script>
+
+</body>
+</html>
