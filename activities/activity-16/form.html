@@ -106,8 +106,20 @@
 </main>
 
 <footer>
-    <p>© 2026 Porter McCoy</p>
+    <p>&copy; 2026 Porter McCoy</p>
 </footer>
+
+<script>
+    document.getElementById("myForm").addEventListener("Submit", function(event) {
+        event.preventDefault();
+        
+        const user = document.getElementById("user").value;
+        const pass = document.getElementById("password").value;
+        const email = document.getElementById("email").value;
+        const info = {user: user, password: password, email: email}
+        console.log(data);
+    });
+</script>
 
 </body>
 </html>
