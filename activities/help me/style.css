@@ -1,0 +1,19 @@
+.hi {
+    font-size: 5rem;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+nav div a {
+    padding: 0rem 1rem;
+}
