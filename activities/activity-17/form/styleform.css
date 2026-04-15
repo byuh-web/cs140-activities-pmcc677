@@ -4,11 +4,13 @@ body {
     padding: 0;
 }
 
-header, header a, footer {
-    background: #003366;
-    color: white;
+header, header a {
     text-align: center;
     padding: 1rem;
+}
+
+h2 {
+    padding: 2rem;
 }
 
 main {
@@ -16,7 +18,7 @@ main {
 }
 
 form {
-    max-width: 600px;
+    max-width: auto;
 }
 
 .boxes {
@@ -24,7 +26,7 @@ form {
 }
 
 fieldset {
-    border: 2px solid #003366;
+    border: 2px solid;
     padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 8px;
@@ -49,6 +51,7 @@ input, textarea, select {
     padding: 0.5rem;
     border-radius: 6px;
     border: 1px solid #888;
+    background-color: #efeded;
 }
 
 .checkbox-row, .radio-label {
@@ -57,22 +60,28 @@ input, textarea, select {
     gap: 0.5rem;
 }
 
-.submit-btn {
+.submit-btn, header a {
     padding: 1rem;
     width: 100%;
-    background: #0066cc;
     color: white;
+    background: #0066cc;
     border: none;
+    text-decoration: none;
     border-radius: 6px;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
 
     .form-row {
         flex-direction: row;
         align-items: center;
+    }
+
+    .updown {
+        display: flex;
     }
 
     .form-row label {
@@ -84,5 +93,16 @@ input, textarea, select {
         width: auto;
         padding: 0.7rem 1.5rem;
         font-size: 1rem;
+    }
+
+    input, textarea, select {
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .updown {
+        flex-direction: row;
     }
 }

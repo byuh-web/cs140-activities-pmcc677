@@ -1,12 +1,34 @@
+html, body {
+    height: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: beige;
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 main {
+    padding: 0rem 1rem;
+    flex: 1;
+}
+
+.next {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.big {
+    display: grid;
+}
+
+main div div {
+    display: flex;
+    flex-direction: column;
 }
 
 header h1 {
@@ -47,28 +69,53 @@ nav div div a {
     font-size: 18px;
 }
 
-.pic {
+figure, video {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 1rem;
+}
+
+#squish {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.oldies {
+    max-width: 200px;
 }
 
 img {
     width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 
 figcaption {
-    margin-top: 0.5rem;
+    margin: 0.5rem 0rem;
     font-size: 80%;
     font-style: italic;
     text-align: center;
+    width: auto;
+    max-width: 300px;
+    text-wrap: balance;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
 }
 
 @media (min-width: 820px) {
 
     body {
         font-size: 120%;
+    }
+
+    .next, .big {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 
     .align {
@@ -91,8 +138,12 @@ figcaption {
         display: flex;
         margin: 0rem 1rem;
     }
-
+    
     img {
-        height: 100%;
+        padding-top: 5rem;
+    }
+
+    .oldies {
+        max-width: 250px;
     }
 }

@@ -1,0 +1,14 @@
+@media (min-width: 820px) {
+
+    .people {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .straight {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}

@@ -1,0 +1,23 @@
+img, video {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+video {
+    max-width: 500px;
+}
+
+.people, .straight {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+@media (min-width: 820px) {
+    .people {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
